@@ -41,7 +41,7 @@ If an invalid operation is performed, the display will show an error message ("E
 
 1. **Input Numbers**: Click on the digit buttons (0-9) or type using your keyboard.
 2. **Input Operators**: Click on the operator buttons (+, -, \*, /) or use your keyboard.
-3. **Perform Calculation**: Press the "=" button or the "Enter" key to calculate the result.
+3. **Perform Calculation**: Press the "=" button or the "=" key to calculate the result.
 4. **Clear Display**: Press the "C" button or the "Escape" key to clear the display.
 
 ---
