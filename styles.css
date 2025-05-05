@@ -1,0 +1,97 @@
+/* Body styling */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* Calculator container styling */
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+/* Calculator display styling */
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+/* Grid layout for calculator buttons */
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns for buttons */
+    gap: 10px; /* Spacing between buttons */
+    padding: 25px;
+}
+
+/* General button styling */
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+/* Operator button styling */
+.operator-btn {
+    background-color: hsl(230, 70%, 55%);
+}
+
+/* Clear button styling */
+.operator-btn-clear {
+    background-color: hsl(0, 80%, 50%);
+}
+
+/* Equal button styling */
+.equal-btn{
+    background-color: hsl(45, 90%, 55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(230, 70%, 65%);
+}
+
+.operator-btn-clear:hover {
+    background-color: hsl(0, 100%, 65%);
+}
+
+.equal-btn:hover{
+    background-color: hsl(45, 90%, 65%);
+}
+
+.operator-btn:active {
+    background-color: hsl(230, 70%, 75%);
+}
+
+.operator-btn-clear:active {
+    background-color: hsl(0, 100%, 75%);
+}
+
+.equal-btn:active{
+    background-color: hsl(45, 90%, 75%);
+}
