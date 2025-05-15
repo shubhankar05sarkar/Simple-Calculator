@@ -2,7 +2,7 @@
 
 A simple, user-friendly, and interactive calculator built using HTML, CSS, and JavaScript. This project allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division, along with handling input through both buttons and the keyboard.
 
-## Deployed at Netlify - https://sunny-cranachan-f30b48.netlify.app/
+### Deployed at Netlify - https://sunny-cranachan-f30b48.netlify.app/
 
 ---
 
