@@ -14,6 +14,7 @@ body {
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
+    width: 90%; /* Adjusted for responsiveness */
     overflow: hidden;
 }
 
@@ -68,7 +69,7 @@ button:active {
 }
 
 /* Equal button styling */
-.equal-btn{
+.equal-btn {
     background-color: hsl(45, 90%, 55%);
 }
 
@@ -80,7 +81,7 @@ button:active {
     background-color: hsl(0, 100%, 65%);
 }
 
-.equal-btn:hover{
+.equal-btn:hover {
     background-color: hsl(45, 90%, 65%);
 }
 
@@ -92,6 +93,24 @@ button:active {
     background-color: hsl(0, 100%, 75%);
 }
 
-.equal-btn:active{
+.equal-btn:active {
     background-color: hsl(45, 90%, 75%);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    #display {
+        font-size: 3rem; /* Reduce font size for smaller screens */
+    }
+
+    button {
+        width: 70px; /* Smaller button size for smaller screens */
+        height: 70px;
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    #keys {
+        gap: 8px; /* Reduce spacing between buttons */
+        padding: 15px; /* Adjust padding */
+    }
 }
