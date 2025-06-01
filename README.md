@@ -23,7 +23,7 @@ A simple, user-friendly, and interactive calculator built using HTML, CSS, and J
 
 ---
 
-## UI Screenshots
+## User Interface
 
 ### 1. Basic UI
 
